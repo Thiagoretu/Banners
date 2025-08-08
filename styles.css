@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e7f1f8;
+    color: #2c3e50;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #2980b9; /* azul */
+    color: white;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1abc9c; /* verde aqua */
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(26, 188, 156, 0.85); /* verde aqua translúcido */
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+
+.faq {
+    padding: 30px 40px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #d6eaf8;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.3);
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #21618c;
+}
+
+.faq-item {
+    border-bottom: 1px solid #a9cce3;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 15px 0;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-weight: 600;
+    color: #1b4f72;
+    transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+    color: #148f77;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px 0 20px 0;
+    color: #145a32;
+}
+
+
+.suscripcion {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 40px 0 0 0;
+    border-radius: 0 0 12px 12px;
+}
+
+.suscripcion h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.suscripcion p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.suscripcion form {
+    margin-top: 10px;
+}
+
+.suscripcion input {
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    width: 250px;
+    max-width: 80vw;
+}
+
+.suscripcion button {
+    padding: 12px 25px;
+    background-color: #145a32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.suscripcion button:hover {
+    background-color: #0b3d1a;
+}
+
+
+footer {
+    background-color: #21618c;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 600;
+}
